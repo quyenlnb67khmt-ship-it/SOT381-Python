@@ -1,0 +1,12 @@
+a= float(input("Hãy nhập số a:"))
+b= float(input("Hãy nhập số b:"))
+c= float(input("Hãy nhập số c:"))
+def soln(a,b,c):
+    max = a
+    if b > max:
+        max = b
+    if c > max:
+        max = c
+    return max
+numMax = soln(a,b,c)
+print(f"Số lớn nhất là {numMax}")
